@@ -39,7 +39,7 @@ cd backend
 ```
 #### Credentials:
 ```bash
-PORT=4000
+PORT=3000
 MONGODB_URI=YOUR MONGODB URI
 JWT_SECRET=YOUR SECRET KEY
 ```
