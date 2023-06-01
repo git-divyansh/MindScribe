@@ -7,7 +7,7 @@ This is a full-stack MERN application that allows users to create, read, update 
 ### Step 1: Clone the repo or download
 
 ```bash
-git clone <URL>
+git clone https://github.com/git-divyansh/MindScribe.git
 ```
 
 ### Step 2: cd into the cloned repo and run:
