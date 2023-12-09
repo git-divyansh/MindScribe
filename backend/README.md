@@ -3,7 +3,7 @@
 ### Step 1: Clone the repo or download
 
 ```bash
-git clone https://github.com/sohelrana1304/cyber-note.git
+git clone https://github.com/git-divyansh/MindScribe.git
 ```
 ### Step 2: cd into the cloned repo and run:
 ```bash
@@ -16,7 +16,7 @@ npm install
 
 * Credentials:
 ```bash
-PORT=3000
+PORT=2000
 MONGODB_URI=YOUR MONGODB URI
 JWT_SECRET=YOUR SECRET KEY
 ```

@@ -3,13 +3,13 @@
 ## To start setting up the project
 This is a full-stack MERN application that allows users to create, read, update and delete notes. The application has a user authentication system that allows users to sign up and log in. Once logged in, users can create notes with a title and body. They can also edit and delete their notes. The application has a search feature that allows users to search for notes by title or body. The application also has a responsive design that works well on both desktop and mobile devices.
 
-#### Live URL - https://cybernote.onrender.com/
+#### Live URL - 
 
 
 ### Step 1: Clone the repo or download
 
 ```bash
-git clone https://github.com/sohelrana1304/cyber-note.git
+git clone https://github.com/git-divyansh/MindScribe.git
 ```
 
 ### Step 2: cd into the cloned repo and run:
@@ -46,4 +46,4 @@ MONGODB_URI=YOUR MONGODB URI
 JWT_SECRET=YOUR SECRET KEY
 ```
 ## Author
-[**Author**](https://github.com/sohelrana1304)
+[**Author**](https://github.com/git-divyansh)
