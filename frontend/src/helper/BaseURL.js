@@ -1,1 +1,1 @@
-export const BaseURL = "http://localhost:2000";
+export const BaseURL = "https://mindscribebackend.onrender.com";
