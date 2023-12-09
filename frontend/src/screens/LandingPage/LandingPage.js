@@ -21,8 +21,8 @@ const LandingPage = () => {
         <Row>
           <div className="intro-text">
             <div>
-              <h1 className="title">Welcome to Cyber Note</h1>
-              <p className="subtitle">Keep your note safe</p>
+              <h1 className="title">Welcome to MindScribe</h1>
+              <p className="subtitle">Keep your mental notes safe</p>
             </div>
             <div className="buttonContainer">
               <Link to="/login">

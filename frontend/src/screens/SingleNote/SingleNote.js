@@ -27,6 +27,7 @@ const SingleNote = () => {
   const {
     loading: loadingDelete,
     error: errorDelete,
+    // eslint-disable-next-line
     success: successDelete,
   } = noteDelete;
 

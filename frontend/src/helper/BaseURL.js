@@ -1,1 +1,1 @@
-export const BaseURL = "https://cyber-note-backend.onrender.com"
+export const BaseURL = "http://localhost:2000";

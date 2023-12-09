@@ -24,6 +24,7 @@ const MyNotes = ({ search }) => {
 
   const noteDelete = useSelector((state) => state.noteDelete);
   const {
+    // eslint-disable-next-line
     loading: loadingDelete,
     error: errorDelete,
     success: successDelete,

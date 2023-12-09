@@ -15,7 +15,7 @@ const CreateNote = () => {
 
   const dispatch = useDispatch();
   const noteCrate = useSelector((state) => state.noteCrate);
-  const { loading, error, note } = noteCrate;
+  const { loading, error} = noteCrate;
 
   const navigate = useNavigate();
 

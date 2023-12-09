@@ -12,8 +12,15 @@ import mongoose from "mongoose";
 //   }
 // };
 
-const connectDB = (url) =>{
-  return mongoose.connect(url);
+const connectDB = async (url) =>{
+  try{
+    const connect = await mongoose.connect(url);
+    console.log("Db connected successfully!");
+    return connect;
+  }
+  catch(err){
+    console.log(err);
+  }
 }
 
 export default connectDB; 

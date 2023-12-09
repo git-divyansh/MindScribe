@@ -6,6 +6,7 @@ import userRouter from "./routes/userRoutes.js";
 import noteRouter from "./routes/noteRoutes.js";
 
 dotenv.config();
+
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -17,18 +18,17 @@ app.get("/test", (req, res) => {
 app.use("/api/user", userRouter);
 app.use("/api/note", noteRouter);
 
-const PORT = process.env.PORT || 4000;
-const start = async()=>{
+const PORT = process.env.PORT || 2000;
+const URL = process.env.MONGO_URL;
+
+const start = async()=>{ 
   try{
-    await connectDB("mongodb+srv://backend-notes:123qweasd@backend.b8i4s2e.mongodb.net/?retryWrites=true&w=majority");
-    app.listen(4000, console.log("Server started of port 4000"));
+    await connectDB(URL);
+    app.listen(PORT, console.log(`Server started of port ${PORT}`));
   }
-  catch(err){
+  catch(err){ 
     console.log(err);
   }
 }
 start();
-// app.listen(PORT, () => {
-//   await connectDB(process.env.MONGO_URI);
-//   console.log(`Server is running on PORT : ${PORT}`);
-// });
+

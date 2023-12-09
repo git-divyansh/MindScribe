@@ -26,7 +26,7 @@ const Header = ({ setSearch }) => {
       <Container>
         <Navbar.Brand href="/">
           <Link to="/" style={{ textDecoration: "none" }}>
-          Cyber Note
+          MindScribe
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
